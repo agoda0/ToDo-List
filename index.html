@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Organize Your Messions To Do">
+        <title>To Do List</title>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="overlay">
+            <div class="content">
+                <div>
+                    <h3>Congratulation</h3>
+                    <i class="fa-solid fa-check-double"></i>
+                </div>
+                <button id="hide">OK</button>
+            </div>
+        </div>
+        <aside>
+            <div class="logo">
+                <i class="fa-solid fa-check"></i>
+                <i class="fa-solid fa-clipboard-list middle"></i>
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <div class="time">
+                <h2>My Day</h2>
+                <p id="dateNow"></p>
+                <p id="timeNow"></p>
+
+            </div>
+            <footer>&copy; All Rights Reserved To Goda</footer>
+        </aside>
+        <main>
+            <header>
+                <h2 >Welcome To Our App</h2>
+                <h3>ToDo List</h3>
+            </header>
+            <div class="data-content">
+                <div class="dataIn">
+                    <input id="textVal" type="text" placeholder=" Text Your Task" >
+                    <button id="addBtn">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                </div>
+                <ul id="displayData">
+                </ul>
+            </div>
+        </main>
+        <div class="end">
+            &copy; All Rights Reserved To Goda
+        </div>
+        <script src="js/all.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
